@@ -1,0 +1,2 @@
+#!/bin/bash
+echo $(dc -e "8o $(( $(( 5#$(tr 'water' '01234' <<< "$WATER") )) + $(( 4#$(tr 'stir' '0123' <<< "$STIR") )) )) p") | tr '01234567' 'bestchol'
