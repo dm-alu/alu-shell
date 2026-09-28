@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# This script displays all running processes, all users, in a tree/user format
+ps auxf
